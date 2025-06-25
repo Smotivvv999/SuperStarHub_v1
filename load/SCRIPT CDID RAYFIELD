@@ -1,2 +1,2 @@
 wait("0.2")
-loadstring(game:HttpGet('https://github.com/Smotivvv999/SuperStarHub_v1/new/main/load'))()v
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Smotivvv999/SuperStarHub_v1/refs/heads/main/load"))()
