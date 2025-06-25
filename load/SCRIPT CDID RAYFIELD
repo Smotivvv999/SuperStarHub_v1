@@ -1,2 +1,5 @@
-wait("0.2")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Smotivvv999/SuperStarHub_v1/refs/heads/main/load"))()
+local raw = game:HttpGet("https://raw.githubusercontent.com/Smotivvv999/SuperStarHub_v1/refs/heads/main/load")
+print("Raw response preview:", raw:sub(1, 200))  -- Preview awal konten
+local func = loadstring(raw)
+print("loadstring result:", func)
+if func then func() else warn("loadstring gagal: value is nil") end
